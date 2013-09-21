@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.recentcomments a {
+	display: inline !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+ .container
+ {
+	 height: 330px !important;
+	 background:#FFF;
+	 position:relative;
+ }
+#slides {
+	display: none;
+	width:980px;
+	min-height:283px;
+}
+#slides .slidesjs-navigation {
+	background-image: url(../images/pre_next.png);
+	display: block;
+	text-indent:9999px;
+	z-index: 9999;
+}
+#slides .slidesjs-previous {
+	background-position: 0 -330px;
+    height: 108px;
+    left: -10px;
+    position: absolute;
+    top: 30%;
+    width: 37px;
+	
+}
+#slides .slidesjs-previous:hover {
+	background-position: 0 -440px;
+}
+#slides .slidesjs-previous:active {
+	background-position: 0 -550px;
+}
+#slides .slidesjs-next {
+	background-position: 0 0;
+    height: 108px;
+    position: absolute;
+    right: -9px;
+    top: 30%;
+    width: 37px;    
+}
+#slides .slidesjs-next:hover {
+	background-position: 0 -110px;
+}
+#slides .slidesjs-next:active {
+	background-position: 0 -220px;
+}
+.slidesjs-pagination {
+	 bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    list-style: none outside none;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 97%;
+	background: none repeat scroll 0 0 #F9F9F9;
+    border-top: 1px solid #DDDEDB;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06) inset;
+	 height: 48px;
+    line-height: 56px;
+}
+.slidesjs-pagination li {
+	display: inline-block;
+	padding-left:3px;
+	padding-right:3px;
+}
+.slidesjs-pagination li a {
+	height: 20px;
+    overflow: hidden;
+    width: 20px;
+	background-image:url(../images/pagination.png);
+	display:block;
+	text-indent:999px;
+}
+.slidesjs-pagination li a:hover
+{
+	background-position: 0 -40px;
+}
+.slidesjs-pagination li a.active
+{
+	background-position: 0 -120px;
+}
+.slidesjs-pagination li a:active
+{
+	background-position: 0 -80px;
+}
+.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active {
+}
+.slidesjs-pagination li a:hover {
+}
+#slides a:link, #slides a:visited {
+	color: #333
+}
+#slides a:hover, #slides a:active {
+	color: #9e2020
+}
+.navbar {
+	overflow: hidden
+}
+
+#slides .infomation_pro
+{
+	float: left;
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 12px;
+    width: 300px;
+}
+
+#slides h2
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: #EA5353;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 26px;
+    line-height: 26px;
+	margin: 25px 0 15px;
+}
+#slides p
+{
+	margin: 15px 0;	
+}
+.slidesjs-container
+{
+	
+}
+.slidesjs-control
+{
+	height: 290px !important;
+	background-color:#FFF;
+}
+#slides p em
+{
+	color: #EA5353;
+}
+
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+
+#slides {
+	display: none
+}
+.container {
+	margin: 0 auto
+}
